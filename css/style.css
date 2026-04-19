@@ -2,7 +2,7 @@
 
 
 body {
-    background-color: rgb(199, 254, 254);
+    background-color: rgb(71, 117, 137);
 }
 
 html, body {
@@ -10,14 +10,20 @@ html, body {
         padding: 0;
     }
 header { text-align: center; 
-background-color: rgb(181, 250, 227);
+background-color: #6a899f;
 padding: 20px;
 }
-header img {
+header .pfp {
     width: 300px;
     height: 300px;
-    border: 20px solid #4bdbf8;
+    border: 20px solid #d2e5e9;
     border-radius: 50%;
+    background-image: url('./../img/Jack-Frost-2.jpg');
+    background-repeat: no-repeat;
+   background-size: 125%;
+    background-position: -30px -4px;
+    margin: 0 auto ;
+
 }
 header h1 {
   font-family: "Lora", serif;
@@ -26,7 +32,7 @@ header h1 {
   font-style: normal;
     font-size: 55px;
     margin: 10px 0 20px 0;
-    color:   blue; 
+    color:   #d2e5e9; 
   
 
 }
