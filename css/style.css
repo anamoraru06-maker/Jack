@@ -69,8 +69,8 @@ header .pfp {
 
 header .pfp.sandman {
     background-image: url('./../img/Sandman.jpg');
-    background-position: 0 0;
-    background-size: cover;
+    background-position: -40px -85px;
+    background-size: 130%;
     border-color: #e9971b;
     
 }
