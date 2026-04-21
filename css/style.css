@@ -11,7 +11,7 @@ body {
 
 .sandman { 
     
-   color: #54453b;
+   color: #221d19;
     background-color: #f2e9dd;
    
 }
@@ -85,8 +85,9 @@ h1 {
   font-weight:  600;
   font-style: normal;
     font-size: 55px;
-    margin: 10px 0 20px 0;
+    margin: 20px 0 20px 0;
     color:   #d2e5e9; 
+    
 
 h2  {
     font-family: "Lora", serif;
@@ -98,6 +99,11 @@ h2  {
     color:   #d2e5e9;}
   
 }
+
+.sandman h1 {
+        color: #f8d6b3;: 40px;
+    }   
+
 main {
     max-width: 800px;
     margin: 0 auto;
@@ -120,6 +126,8 @@ footer .content {
     margin: 0 auto;
      padding: 0 20px;
 }
+.sandman footer {
+    background-color: #b06b38;
 
     h1 {
         font-size: 35px;
