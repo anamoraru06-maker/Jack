@@ -9,6 +9,13 @@ body {
     background-color: #dbe9ec;
 }
 
+.sandman { 
+    
+   color: #54453b;
+    background-color: #f2e9dd;
+   
+}
+
 html, body {
         margin: 0;
         padding: 0;
@@ -59,7 +66,20 @@ header .pfp {
     margin: 0 auto ;
 
 }
- h1 {
+
+header .pfp.sandman {
+    background-image: url('./../img/Sandman.jpg');
+    background-position: 0 0;
+    background-size: cover;
+    border-color: #e9971b;
+    
+}
+.sandman header {
+   
+    background-color: #b06b38;
+}
+
+h1 {
   font-family: "Lora", serif;
   font-optical-sizing: auto;
   font-weight:  600;
