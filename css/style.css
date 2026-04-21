@@ -85,3 +85,15 @@ main image {
     width: 100%;
     height: auto;
 }
+
+footer {
+   padding: 40px ;
+    background-color: #6a899f;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 60px;
+}
+footer .content {
+   width: 800px;
+    margin: 0 auto;
+}
