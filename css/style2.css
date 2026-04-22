@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Amita:wght@400;700&family=Charm:wght@400;700&family=Cherry+Bomb+One&family=Dynalight&family=Emblema+One&family=Italianno&family=Jim+Nightshade&family=Kapakana:wght@300..400&family=Laila:wght@300;400;500;600;700&family=Lora:ital,wght@0,400..700;1,400..700&family=Marck+Script&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Modak&family=MonteCarlo&family=Montez&family=Nosifer&family=Pacifico&family=Rokkitt:ital,wght@0,100..900;1,100..900&family=Shrikhand&family=Spinnaker&family=Ultra&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+   font-size: 20px;
+   line-height: 30px;
+   color: #323e48;
+    background-color: #dbe9ec;
+}
+
+.santa { 
+    
+   color: #290706;
+    background-color: #f5e1dc;
+   
+}
+
+html, body {
+        margin: 0;
+        padding: 0;
+    }
+    p,ul, ol {
+      font-size: 20px;
+        line-height: 30px;
+    
+    }
+    ul, ol {
+       padding-left: 0px;
+       list-style-position: inside;
+    }
+    
+    a {
+        color: #3129a5;
+        text-decoration: none;
+    }
+    a:hover {
+        color: #ff0051;
+    }
+    a:active {
+        color: #820029;
+    }
+    a :visited {
+        color: #81abf5;
+    }
+    p.caption {
+          font-size: 16px;
+        color: #4f4f4f;
+        font-style: oblique;
+        margin: 0;
+    }
+header 
+{ text-align: center; 
+background-image: url('./../img/santa-claus1.jpg');
+padding: 20px;
+background-position: -95px -126px;
+background-size: 106%;
+}
+header .pfp {
+    width: 300px;
+    height: 300px;
+    border: 20px solid #3d1f1c;
+    background-image: url('./../img/santa.jpg');
+    background-repeat: no-repeat;
+   background-size: 152%;
+    background-position: -85px -40px;
+    margin: 0 auto ;
+    border-style: ridge;
+
+}
+
+
+
+    
+
+
+
+h1 {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight:  600;
+  font-style: normal;
+    font-size: 55px;
+    margin: 20px 0 20px 0;
+    color:   #ffdfd8; 
+   
+
+h2  {
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight:  400;
+    font-style: normal;
+    font-size: 30px;
+    margin: 20px  0;
+    color:   #182527;}
+  
+}
+
+h1 {
+  text-shadow: 5px 4px 6px rgb(0 0 0) ;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+main img {
+    max-width: 100%;
+}
+
+footer {
+   padding: 40px ;
+    background-color: #914a42;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 60px;
+    color: #fff5f2;
+}
+footer .content {
+  max-width: 800px;
+    margin: 0 auto;
+     padding: 0 20px;
+}
+
+
+    h1 {
+        font-size: 35px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    main {
+        padding: 0 10px;
+    }
+    footer {
+        padding: 20px;
+        font-size: 18px;
+    }
+
+    @media (max-width: 600px) {
+    footer .p {
+        font-size: 16px;
+    }
