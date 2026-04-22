@@ -82,7 +82,7 @@ h1 {
   font-style: normal;
     font-size: 55px;
     margin: 20px 0 20px 0;
-    color:   #ffdfd8; 
+    color:   #fff7f6; 
    
 
 h2  {
@@ -116,8 +116,9 @@ footer {
     text-align: center;
     font-size: 25px;
     margin-top: 60px;
-    color: #fff5f2;
+    color: #f5e1dc;
 }
+
 footer .content {
   max-width: 800px;
     margin: 0 auto;
@@ -125,9 +126,7 @@ footer .content {
 }
 
 
-    h1 {
-        font-size: 35px;
-    }
+   
     h2 {
         font-size: 25px;
     }
