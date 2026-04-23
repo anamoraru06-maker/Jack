@@ -9,6 +9,11 @@ body {
     background-color: #dbe9ec;
 }
 
+.fairy-tooth
+{
+    color: #102218;
+    background-color: #e4ffec;
+}
 .sandman { 
     
    color: #221919;
@@ -74,9 +79,22 @@ header .pfp.sandman {
     border-color: #e9971b;
     
 }
+
+header .pfp.fairy-tooth {
+    background-image: url('./../img/rise-of-the-guardians-toothfairy.webp');
+    background-position: -143px -30px;
+    background-size: 200%;
+    border-color: #a4ccb0;
+}
 .sandman header {
    
     background-color: #b06b38;
+}
+.fairy-tooth header {
+    background-color: #76f49e;
+    background-image: url('./../img/toothpalace.jpg');
+    background-size: 50%;
+   
 }
 
 h1 {
@@ -104,6 +122,14 @@ h2  {
         color: #f8d6b3;: 40px;
     }   
 
+.fairy-tooth h1 {
+        color: #e9ffef;
+       
+    }   
+    .fairy-tooth h1 {
+          text-shadow: #323e48;
+    }
+
 main {
     max-width: 800px;
     margin: 0 auto;
@@ -113,6 +139,13 @@ main {
 main img {
     max-width: 100%;
 }
+.fairy-tooth
+main img {
+    max-width: 100%;
+    border: 1px solid #fcfffd;
+   
+}
+
 
 footer {
    padding: 40px ;
@@ -126,8 +159,9 @@ footer .content {
     margin: 0 auto;
      padding: 0 20px;
 }
-.sandman footer {
-    background-color: #b06b38;
+
+ .fairy-tooth footer {
+    background-color: #a4ccb0;
 
     h1 {
         font-size: 35px;
@@ -147,3 +181,31 @@ footer .content {
     footer .p {
         font-size: 16px;
     }
+}   
+    }
+    
+.sandman footer {
+    background-color: #b06b38;
+
+    h1 {
+        font-size: 35px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    main {
+        padding: 0 10px;
+    }
+    footer {
+        padding: 20px;
+        font-size: 18px;
+    }
+}
+
+    @media (max-width: 600px) {
+    footer .p {
+        font-size: 16px;
+    }
+
+   
+
