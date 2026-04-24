@@ -4,16 +4,17 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
    font-size: 20px;
-   line-height: 30px;
-   color: #323e48;
-    background-color: #dbe9ec;
-}
-
-.santa { 
-    
+   line-height: 30px;   
    color: #290706;
     background-color: #f5e1dc;
-   
+
+  
+}
+
+.Bunnymund
+{
+    color: #071e04;
+    background-color: #e7ffeb;
 }
 
 html, body {
@@ -69,11 +70,20 @@ header .pfp {
 
 }
 
-
-
+header .pfp.Bunnymund {
+    background-image: url('./../img/bunny3\ 1.png');
+    background-position: -256px -28px;
+    background-size: 260%;
+    border-color: #408c87;
+    border-style: solid;
+    background-color: #bcaffc;
     
-
-
+}
+.Bunnymund header {
+    background-image: url('./../img/Rectangle.png');
+    background-position: -5px -606px;
+    background-size: 103%;  
+}
 
 h1 {
   font-family: "Lora", serif;
@@ -81,7 +91,7 @@ h1 {
   font-weight:  600;
   font-style: normal;
     font-size: 55px;
-    margin: 20px 0 20px 0;
+    margin: 25px 0 20px 0;
     color:   #fff7f6; 
    
 
@@ -97,6 +107,7 @@ h2  {
 }
 
 h1 {
+    color: #ffffff;
   text-shadow: 5px 4px 6px rgb(0 0 0) ;
 }
 
@@ -109,7 +120,9 @@ main {
 main img {
     max-width: 100%;
 }
-
+.custom-image {
+    max-width: 50px;
+}
 footer {
    padding: 40px ;
     background-color: #914a42;
@@ -124,6 +137,11 @@ footer .content {
     margin: 0 auto;
      padding: 0 20px;
 }
+
+.Bunnymund footer {
+    background-color: #408c87; 
+    color: #e3fffd;
+ }
 
 
    
@@ -141,4 +159,6 @@ footer .content {
     @media (max-width: 600px) {
     footer .p {
         font-size: 16px;
+    }
+
     }

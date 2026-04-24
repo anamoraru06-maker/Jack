@@ -119,7 +119,7 @@ h2  {
 }
 
 .sandman h1 {
-        color: #f8d6b3;: 40px;
+        color: #f8d6b3;
     }   
 
 .fairy-tooth h1 {
@@ -206,6 +206,4 @@ footer .content {
     footer .p {
         font-size: 16px;
     }
-
-   
-
+}
