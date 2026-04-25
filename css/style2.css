@@ -123,6 +123,12 @@ main img {
 .custom-image {
     max-width: 50px;
 }
+
+main video {
+    max-width: 100%;
+    height: auto;
+}
+
 footer {
    padding: 40px ;
     background-color: #914a42;
@@ -160,5 +166,4 @@ footer .content {
     footer .p {
         font-size: 16px;
     }
-
-    }
+}
