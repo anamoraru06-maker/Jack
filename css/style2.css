@@ -17,6 +17,11 @@ body {
     background-color: #e7ffeb;
 }
 
+.pitch-black { 
+    color: #efefef;
+    background-color: #404040;
+}
+
 html, body {
         margin: 0;
         padding: 0;
@@ -35,6 +40,9 @@ html, body {
         color: #3129a5;
         text-decoration: none;
     }
+    .pitch-black a {
+        color: #81abf5;
+    }
     a:hover {
         color: #ff0051;
     }
@@ -49,6 +57,9 @@ html, body {
         color: #4f4f4f;
         font-style: oblique;
         margin: 0;
+    }
+    .pitch-black p.caption {
+        color: #d1d1d1;
     }
 header 
 { text-align: center; 
@@ -79,10 +90,27 @@ header .pfp.Bunnymund {
     background-color: #bcaffc;
     
 }
+
 .Bunnymund header {
     background-image: url('./../img/Rectangle.png');
     background-position: -5px -606px;
     background-size: 103%;  
+}
+
+header .pfp.pitch-black {
+    background-image: url('./../img/pitchblack2.jfif');
+     background-size: 120%;
+     background-position: -32px -8px;
+    border-color: #465665;
+    border-style: solid;
+    border-radius: 0%;
+}   
+
+.pitch-black header {
+    background-image: url('./../img/blackclouds.jpg');
+    background-position: 0px -345px;
+    background-size: 100%;
+     background-repeat: no-repeat;
 }
 
 h1 {
@@ -148,7 +176,9 @@ footer .content {
     background-color: #408c87; 
     color: #e3fffd;
  }
-
+.pitch-black footer {
+    background-color: #2e3338;  
+}
 
    
     h2 {
